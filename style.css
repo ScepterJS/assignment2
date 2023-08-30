@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox {
+  background-image: url(allblue.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+}
+.flexbox section {
+  height: 200px;
+  width: 300px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+img {
+  height: 150px;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  /* padding: 10px; */
+  background: white;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
